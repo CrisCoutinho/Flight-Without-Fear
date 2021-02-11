@@ -10,10 +10,11 @@
 		1A690ADD25D3FADB00C3BC02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A690ADC25D3FADB00C3BC02 /* AppDelegate.swift */; };
 		1A690ADF25D3FADB00C3BC02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A690ADE25D3FADB00C3BC02 /* SceneDelegate.swift */; };
 		1A690AE125D3FADB00C3BC02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A690AE025D3FADB00C3BC02 /* ViewController.swift */; };
-		1A690AE425D3FADB00C3BC02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A690AE225D3FADB00C3BC02 /* Main.storyboard */; };
 		1A690AE725D3FADB00C3BC02 /* Flight_Without_Fear.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A690AE525D3FADB00C3BC02 /* Flight_Without_Fear.xcdatamodeld */; };
 		1A690AE925D3FADB00C3BC02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A690AE825D3FADB00C3BC02 /* Assets.xcassets */; };
 		1A690AEC25D3FADB00C3BC02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A690AEA25D3FADB00C3BC02 /* LaunchScreen.storyboard */; };
+		1A96D50E25D53BD90040BBE6 /* FearListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96D50D25D53BD90040BBE6 /* FearListViewController.swift */; };
+		1A96D51625D544B50040BBE6 /* FearDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96D51525D544B50040BBE6 /* FearDescriptionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +22,12 @@
 		1A690ADC25D3FADB00C3BC02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A690ADE25D3FADB00C3BC02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1A690AE025D3FADB00C3BC02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1A690AE325D3FADB00C3BC02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A690AE625D3FADB00C3BC02 /* Flight_Without_Fear.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Flight_Without_Fear.xcdatamodel; sourceTree = "<group>"; };
 		1A690AE825D3FADB00C3BC02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A690AEB25D3FADB00C3BC02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A690AED25D3FADB00C3BC02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A96D50D25D53BD90040BBE6 /* FearListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FearListViewController.swift; sourceTree = "<group>"; };
+		1A96D51525D544B50040BBE6 /* FearDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FearDescriptionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +60,33 @@
 		1A690ADB25D3FADB00C3BC02 /* Flight Without Fear */ = {
 			isa = PBXGroup;
 			children = (
+				1A96D50C25D53BBA0040BBE6 /* View */,
+				1A96D50B25D53BB10040BBE6 /* Model */,
 				1A690ADC25D3FADB00C3BC02 /* AppDelegate.swift */,
 				1A690ADE25D3FADB00C3BC02 /* SceneDelegate.swift */,
 				1A690AE025D3FADB00C3BC02 /* ViewController.swift */,
-				1A690AE225D3FADB00C3BC02 /* Main.storyboard */,
 				1A690AE825D3FADB00C3BC02 /* Assets.xcassets */,
 				1A690AEA25D3FADB00C3BC02 /* LaunchScreen.storyboard */,
 				1A690AED25D3FADB00C3BC02 /* Info.plist */,
 				1A690AE525D3FADB00C3BC02 /* Flight_Without_Fear.xcdatamodeld */,
 			);
 			path = "Flight Without Fear";
+			sourceTree = "<group>";
+		};
+		1A96D50B25D53BB10040BBE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1A96D50C25D53BBA0040BBE6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1A96D50D25D53BD90040BBE6 /* FearListViewController.swift */,
+				1A96D51525D544B50040BBE6 /* FearDescriptionViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +148,6 @@
 			files = (
 				1A690AEC25D3FADB00C3BC02 /* LaunchScreen.storyboard in Resources */,
 				1A690AE925D3FADB00C3BC02 /* Assets.xcassets in Resources */,
-				1A690AE425D3FADB00C3BC02 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +159,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A690AE725D3FADB00C3BC02 /* Flight_Without_Fear.xcdatamodeld in Sources */,
+				1A96D50E25D53BD90040BBE6 /* FearListViewController.swift in Sources */,
 				1A690AE125D3FADB00C3BC02 /* ViewController.swift in Sources */,
+				1A96D51625D544B50040BBE6 /* FearDescriptionViewController.swift in Sources */,
 				1A690ADD25D3FADB00C3BC02 /* AppDelegate.swift in Sources */,
 				1A690ADF25D3FADB00C3BC02 /* SceneDelegate.swift in Sources */,
 			);
@@ -150,14 +170,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1A690AE225D3FADB00C3BC02 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1A690AE325D3FADB00C3BC02 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1A690AEA25D3FADB00C3BC02 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
