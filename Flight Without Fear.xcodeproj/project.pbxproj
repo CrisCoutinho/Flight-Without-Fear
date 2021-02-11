@@ -15,6 +15,7 @@
 		1A690AEC25D3FADB00C3BC02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A690AEA25D3FADB00C3BC02 /* LaunchScreen.storyboard */; };
 		1A96D50E25D53BD90040BBE6 /* FearListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96D50D25D53BD90040BBE6 /* FearListViewController.swift */; };
 		1A96D51625D544B50040BBE6 /* FearDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96D51525D544B50040BBE6 /* FearDescriptionViewController.swift */; };
+		1A96D51925D5637D0040BBE6 /* FearTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96D51825D5637D0040BBE6 /* FearTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		1A690AED25D3FADB00C3BC02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A96D50D25D53BD90040BBE6 /* FearListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FearListViewController.swift; sourceTree = "<group>"; };
 		1A96D51525D544B50040BBE6 /* FearDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FearDescriptionViewController.swift; sourceTree = "<group>"; };
+		1A96D51825D5637D0040BBE6 /* FearTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FearTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			children = (
 				1A96D50D25D53BD90040BBE6 /* FearListViewController.swift */,
 				1A96D51525D544B50040BBE6 /* FearDescriptionViewController.swift */,
+				1A96D51825D5637D0040BBE6 /* FearTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				1A96D50E25D53BD90040BBE6 /* FearListViewController.swift in Sources */,
 				1A690AE125D3FADB00C3BC02 /* ViewController.swift in Sources */,
 				1A96D51625D544B50040BBE6 /* FearDescriptionViewController.swift in Sources */,
+				1A96D51925D5637D0040BBE6 /* FearTableViewCell.swift in Sources */,
 				1A690ADD25D3FADB00C3BC02 /* AppDelegate.swift in Sources */,
 				1A690ADF25D3FADB00C3BC02 /* SceneDelegate.swift in Sources */,
 			);
