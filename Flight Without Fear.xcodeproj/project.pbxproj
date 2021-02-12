@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A47359425D68E7F00DADD05 /* FearDescriptionContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A47359325D68E7F00DADD05 /* FearDescriptionContent.swift */; };
 		1A690ADD25D3FADB00C3BC02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A690ADC25D3FADB00C3BC02 /* AppDelegate.swift */; };
 		1A690ADF25D3FADB00C3BC02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A690ADE25D3FADB00C3BC02 /* SceneDelegate.swift */; };
 		1A690AE125D3FADB00C3BC02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A690AE025D3FADB00C3BC02 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A47359325D68E7F00DADD05 /* FearDescriptionContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FearDescriptionContent.swift; sourceTree = "<group>"; };
 		1A690AD925D3FADB00C3BC02 /* Flight Without Fear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flight Without Fear.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A690ADC25D3FADB00C3BC02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A690ADE25D3FADB00C3BC02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A47359225D68E4000DADD05 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1A47359325D68E7F00DADD05 /* FearDescriptionContent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		1A690AD025D3FADB00C3BC02 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +95,7 @@
 		1A96D50C25D53BBA0040BBE6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1A47359225D68E4000DADD05 /* Components */,
 				1A96D50D25D53BD90040BBE6 /* FearListViewController.swift */,
 				1A96D51525D544B50040BBE6 /* FearDescriptionViewController.swift */,
 				1A96D51825D5637D0040BBE6 /* FearTableViewCell.swift */,
@@ -165,6 +176,7 @@
 				1A96D50E25D53BD90040BBE6 /* FearListViewController.swift in Sources */,
 				1A690AE125D3FADB00C3BC02 /* ViewController.swift in Sources */,
 				1A96D51625D544B50040BBE6 /* FearDescriptionViewController.swift in Sources */,
+				1A47359425D68E7F00DADD05 /* FearDescriptionContent.swift in Sources */,
 				1A96D51925D5637D0040BBE6 /* FearTableViewCell.swift in Sources */,
 				1A690ADD25D3FADB00C3BC02 /* AppDelegate.swift in Sources */,
 				1A690ADF25D3FADB00C3BC02 /* SceneDelegate.swift in Sources */,

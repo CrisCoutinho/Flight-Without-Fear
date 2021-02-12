@@ -7,7 +7,13 @@
 
 import UIKit
 
-class FearDescriptionViewController: ViewController {
+class FearDescriptionViewController: UIViewController {
 
+  let fearDescription = FearDescriptionContent()
+
+  override func viewDidLoad() {
+    super.viewDidLoad()
+
+  }
   
 }
