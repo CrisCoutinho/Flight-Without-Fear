@@ -66,9 +66,9 @@ extension FearDescriptionContent{
     descriptionLabel.translatesAutoresizingMaskIntoConstraints = false
 
     NSLayoutConstraint.activate([
-      descriptionLabel.topAnchor.constraint(equalTo: self.topAnchor, constant: -560),
+      descriptionLabel.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor, constant: -500),
       descriptionLabel.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 21),
-      descriptionLabel.rightAnchor.constraint(equalTo: self.rightAnchor),
+      descriptionLabel.rightAnchor.constraint(equalTo: self.rightAnchor, constant: -12),
       descriptionLabel.bottomAnchor.constraint(equalTo: self.bottomAnchor)
     ])
 

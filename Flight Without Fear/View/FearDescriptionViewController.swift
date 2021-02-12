@@ -18,7 +18,7 @@ class FearDescriptionViewController: UIViewController {
     navigationController?.navigationBar.prefersLargeTitles = true
     setupContentView()
 
-    fearDescription.setFearContent(description: "Esse é um texto para Claustrofobia")
+    fearDescription.setFearContent(description: "A aerofobia e a claustrofobia, assim como outras fobias, causam os mesmos sintomas, como aperto no peito, falta de ar, tontura, enjoo, palpitação, sudorese excessiva, boca seca. A diferença é o tipo de situação que leva ao desencadeamento destes sintomas. O tratamento é feito, em média, em 10 sessões individuais. Se for em grupo, é possível fazer em um curso intensivo de três dias. Nossa metodologia envolve Psicoeducação, Terapia Cognitivo Comportamental, ensino de técnicas para controle da ansiedade, dessensibilização sistemática e simulação de voo.")
 
   }
 

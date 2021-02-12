@@ -11,7 +11,7 @@ class FearTableViewCell: UITableViewCell{
 
   let cellView: UIView = {
     let view = UIView()
-    view.backgroundColor = UIColor.blue
+    view.backgroundColor = UIColor.lightBlue
     view.layer.cornerRadius = 10
     return view
   }()
