@@ -39,6 +39,11 @@ class FearListViewController: UIViewController, UITableViewDelegate, UITableView
       return 100
   }
 
+  func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    let nextController = FearDescriptionViewController()
+    self.navigationController?.pushViewController(nextController, animated: true)
+  }
+
   func setupTableView() {
     view.addSubview(fearListTV)
     fearListTV.delegate = self
