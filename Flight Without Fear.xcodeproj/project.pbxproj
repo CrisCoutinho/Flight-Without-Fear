@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A47359425D68E7F00DADD05 /* FearDescriptionContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A47359325D68E7F00DADD05 /* FearDescriptionContent.swift */; };
 		1A690ADD25D3FADB00C3BC02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A690ADC25D3FADB00C3BC02 /* AppDelegate.swift */; };
 		1A690ADF25D3FADB00C3BC02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A690ADE25D3FADB00C3BC02 /* SceneDelegate.swift */; };
 		1A690AE125D3FADB00C3BC02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A690AE025D3FADB00C3BC02 /* ViewController.swift */; };
@@ -16,9 +17,11 @@
 		1A96D50E25D53BD90040BBE6 /* FearListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96D50D25D53BD90040BBE6 /* FearListViewController.swift */; };
 		1A96D51625D544B50040BBE6 /* FearDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96D51525D544B50040BBE6 /* FearDescriptionViewController.swift */; };
 		1A96D51925D5637D0040BBE6 /* FearTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96D51825D5637D0040BBE6 /* FearTableViewCell.swift */; };
+		1AC7E40225D6C7FC00BB4DB9 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC7E40125D6C7FC00BB4DB9 /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A47359325D68E7F00DADD05 /* FearDescriptionContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FearDescriptionContent.swift; sourceTree = "<group>"; };
 		1A690AD925D3FADB00C3BC02 /* Flight Without Fear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flight Without Fear.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A690ADC25D3FADB00C3BC02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A690ADE25D3FADB00C3BC02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +33,7 @@
 		1A96D50D25D53BD90040BBE6 /* FearListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FearListViewController.swift; sourceTree = "<group>"; };
 		1A96D51525D544B50040BBE6 /* FearDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FearDescriptionViewController.swift; sourceTree = "<group>"; };
 		1A96D51825D5637D0040BBE6 /* FearTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FearTableViewCell.swift; sourceTree = "<group>"; };
+		1AC7E40125D6C7FC00BB4DB9 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A47359225D68E4000DADD05 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1A47359325D68E7F00DADD05 /* FearDescriptionContent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		1A690AD025D3FADB00C3BC02 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +74,7 @@
 		1A690ADB25D3FADB00C3BC02 /* Flight Without Fear */ = {
 			isa = PBXGroup;
 			children = (
+				1AC7E40025D6C7E900BB4DB9 /* Extensions */,
 				1A96D50C25D53BBA0040BBE6 /* View */,
 				1A96D50B25D53BB10040BBE6 /* Model */,
 				1A690ADC25D3FADB00C3BC02 /* AppDelegate.swift */,
@@ -85,11 +98,20 @@
 		1A96D50C25D53BBA0040BBE6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1A47359225D68E4000DADD05 /* Components */,
 				1A96D50D25D53BD90040BBE6 /* FearListViewController.swift */,
 				1A96D51525D544B50040BBE6 /* FearDescriptionViewController.swift */,
 				1A96D51825D5637D0040BBE6 /* FearTableViewCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		1AC7E40025D6C7E900BB4DB9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1AC7E40125D6C7FC00BB4DB9 /* UIColor.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +187,8 @@
 				1A96D50E25D53BD90040BBE6 /* FearListViewController.swift in Sources */,
 				1A690AE125D3FADB00C3BC02 /* ViewController.swift in Sources */,
 				1A96D51625D544B50040BBE6 /* FearDescriptionViewController.swift in Sources */,
+				1AC7E40225D6C7FC00BB4DB9 /* UIColor.swift in Sources */,
+				1A47359425D68E7F00DADD05 /* FearDescriptionContent.swift in Sources */,
 				1A96D51925D5637D0040BBE6 /* FearTableViewCell.swift in Sources */,
 				1A690ADD25D3FADB00C3BC02 /* AppDelegate.swift in Sources */,
 				1A690ADF25D3FADB00C3BC02 /* SceneDelegate.swift in Sources */,
@@ -316,7 +340,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "simpleapp.Flight-Without-Fear";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -335,7 +359,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "simpleapp.Flight-Without-Fear";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
